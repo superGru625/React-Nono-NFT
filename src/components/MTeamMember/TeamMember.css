@@ -1,0 +1,48 @@
+.team-member-item {
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.team-member-item .img-wrapper {
+  position: relative;
+  z-index: 2;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.team-member-item .img-wrapper img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.25));
+}
+
+.team-member-item h3 {
+  font-family: 'Iceland';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 42px;
+  color: #ffffff;
+  text-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  margin: 10px 0 0 0;
+}
+
+.team-member-item h4 {
+  margin: 0;
+  font-family: 'Iceland';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 25px;
+  color: #ffffff;
+  text-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+/*# sourceMappingURL=TeamMember.css.map */
